@@ -1,7 +1,27 @@
-<p class="ui raised segment">
-  {{ question.choiceOne}}
-</p>
+<div class="ui raised segment">
+  {{ question.choiceOne}} 
+  <button class=" mini ui primary right floated icon toggle button"><i class="large thumbs outline up icon"></i></button>
+</div>
 <p>or</p>
-<p class="ui raised segment">
+<div class="ui raised segment">
     {{ question.choiceTwo}}
-</p>
+    <button class=" mini ui primary right floated icon button"><i class="large thumbs outline up icon"></i></button>
+</div>
+
+<div class="ui divider"></div>
+
+<div class="ui fluid input ">
+    <input type="text" placeholder="Why?">
+    <button class="ui right floated button">
+     Submit
+    </button>
+  </div>
+
+  <div class="ui divider"></div>
+
+  <button class=" fluid ui button">
+    Ask another one
+   </button>
+
+
+
